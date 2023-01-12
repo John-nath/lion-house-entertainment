@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>fontlink}}
+    <title>Contact us</title>
+</head>
+<body>
+    {{>navbar}}
+    <section class="contact-section">
+           <div class="aligner">
+            <h2>Contact Us</h2>
+            <div class="contact-section-container">
+                
+                <div class="contact-item-box">
+                     <div class="contact-item">
+                        <div class="">
+                            <div class="svg-box">{{>call}}</div>
+                        </div>
+                        <p class="contact-descriptor"> +2347015976386</p>
+                        
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="">
+                            <div class="svg-box">{{>mail}}</div>
+                        </div>
+                        <p class="contact-descriptor">lhe@gmail.com</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <div>
+                            <div class="svg-box">{{>location}}</div>
+                        </div>
+                        <p class="contact-descriptor">243B kirikiri Road Olodi Apapa Lagos</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="form">
+                    <form action="/contact-us" method="POST" enctype="multipart/form-data">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="email" required />
+
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" name="subject" id="subject" required  class="form-input" placeholder="I would like to collaborate"/>
+
+                        <label for="message" class="form-label">Send us a message</label>
+                        <textarea name="Message" id="message" cols="30" rows="5" class="form-input" placeholder="Your message" required></textarea>
+                    
+                        <input type="submit" id="submit" name="submit" class="btn-send" value="Send" >
+
+
+                    </form>
+
+                </div>
+
+                
+            </div>
+           </div>
+            
+        
+    </section>
+    
+    {{>footer}}
+    {{>scripts}}
+</body>
+</html>

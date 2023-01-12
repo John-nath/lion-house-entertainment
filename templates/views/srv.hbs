@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>fontlink}}
+    <title>Services</title>
+</head>
+<body>
+    {{>navbar}}
+    <section class="services">
+        <h2 class="services-heading">Our Services</h2>
+        <div class="services-grid">
+            <div class="item top-card">
+                <a href="#collaboration">
+                    <div class="item-box">
+                        <img src="/img/handshake-icon.png" alt="" width="64px" height="64px">
+                        <h3>Brand Collaboration</h3>
+                    </div>
+                </a>
+            </div> 
+            <div class="item top-card">
+                <a href="#performance">
+                    <div class="item-box ">
+                        <img src="/img/rockstar-icon.png" alt="" width="64px" height="64px">
+                        <h3>Performance & Appearances</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item top-card">
+                <a href="#license" class="">
+                    <div class="item-box">
+                        <img src="/img/license-icon.png" alt="" width="50px" height="50px">
+                        <h3>Music Sync & Licensing</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item performance medium-height" id="collaboration">
+                <div class="performance-box">
+                    <img src="/img/handshake-icon.png" alt="" width="64px" height="64px">
+                    <h3>Brand Collaboration</h3>
+                </div>  
+
+				<p>Become partners with Lion House Entertainment to enhance the growth of your business regardless of your niche. </p>
+                <a class="btn-link" href="/contact-us">Collaborate <ion-icon name="arrow-forward-outline" class="ion-arrow"></ion-icon></a>
+            </div>
+
+            <div class="item bg"><img class="grid-image" src="/img/pic-29.jpg" alt="chart"></div>
+
+            
+            <div class="item performance" id="license">
+                <div class="performance-box license-box">
+                    <div class="capa">
+                        <img src="/img/license-icon.png" alt="" width="64px" height="64px">
+                    </div>
+                    
+                    <h3>Music Sync & Licensing</h3>
+                </div>  
+
+				<p>Synchronize our music with movies, advertisements and video games. </p>
+                <a class="btn-link" href="/contact-us">Synchronize <ion-icon name="arrow-forward-outline" class="ion-arrow"></ion-icon></a>
+            </div>
+            <div class="item bg" ><img class="grid-image" src="/img/pic-16.jpg" alt="sync records"></div>
+            
+            <div class="item performance big-height" id="performance">
+                <div class="performance-box">
+                    <img src="/img/rockstar-icon.png" alt="performance-icon" width="64px" height="64px">
+                    <h3>Performance & Appearances</h3>
+                </div>  
+
+                <p class="">No limit to our entertainment. We cover any kind of event, engage in indoor and outdoor performances, organize concerts and can manage your events for you. </p>
+                <a class="btn-link" href="/contact-us">Invite Us <ion-icon name="arrow-forward-outline" class="ion-arrow"></ion-icon></a>
+            </div>
+            <div class="item"><img class="grid-image" src="/img/pic-30.jpg" alt="concert"></div>
+        </div>
+        
+    </section> 
+
+    {{>footer}}
+    {{>scripts}}
+</body>
+</html>

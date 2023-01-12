@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-section {
+    background-color: #f7f7f7;
+    height: 100%em;
+    width: 100%;
+    padding-bottom: 50px;
+    
+}
+
+.about-section .container h3 {
+    padding-block-start: 80px;
+    font-weight: 100;
+}
+
+.details {
+    padding-top: 30px;
+    width: 75vw;
+    margin: 0 auto 50px 0;
+}
+
+.details h2 {
+    font-size: 24px;
+    margin-block-end: 30px;
+    font-weight: 800;
+}
+
+.text-image {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    object-fit: cover;
+
+}
+
+.text-image-p {
+    background-color: #FFF;
+    padding: 30px;
+    
+}
+.aligner{
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.text-image img{
+    max-inline-size: 45%;
+    height: auto;
+}
+
+.text-image__item {
+    flex-basis: 45%;
+}
+
+.lhe-text {
+    color: #19242e;
+    
+}
+
+.contact-section {
+
+background-color: rgb(237, 246, 238);
+
+
+}
+
+.contact-section-container {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    gap: 30px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact-section-container h2{
+    text-align: center;
+    width: 75vw;
+    margin:0 auto;
+        
+}
+
+.aligner h2 {
+    padding-top: 30px;
+}
+
+svg.ionicon {
+    width: 32px;
+}
+
+.btn-send {
+    display:block;
+    margin-block-start: 20px;
+    padding: 20px;
+    background-color: rgb(25, 36, 46);
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-item {
+    display: flex;
+    margin-block-end: 15px;
+    align-items: center;
+    background-color: #fefefe;
+    padding: 20px;
+    box-shadow: rgba(17,12, 14, .15) 0 px 48px 10px 0px;
+    
+
+
+}
+
+@media(min-width: 800px) {
+    .contact-item-box {
+        transform: translateY(10%);
+    }
+}
+
+.contact-descriptor {
+    padding-left: 15px;
+}
+
+.form-input {
+    border-radius: 0;
+    border:  2px solid rgb(25, 36, 46);
+    padding: 10px;
+}
+
+.form-div {
+    width: 80%;
+    margin:0 auto;
+}
+
+
+
+label {
+    margin: 1rem 0 1rem 0;
+}
+
